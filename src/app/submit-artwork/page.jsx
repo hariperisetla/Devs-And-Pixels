@@ -1,15 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import CodeEditor from "@/components/CodeEditor";
-
 const SubmitArtwork = () => {
-  return (
-    <div className="text-white">
-      SubmitArtwork 
-      <CodeEditor />
-    </div>
-  );
+  return <div className="text-white">SubmitArtwork</div>;
 };
 
 export default SubmitArtwork;
